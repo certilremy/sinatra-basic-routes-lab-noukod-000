@@ -4,7 +4,9 @@ class App < Sinatra::Base
   url = ["name", "hometown", "favorite-song"]
 
   get '/' do
-      "Hello World"
+      url.each{ |i|
+        puts "i"
+      }
     end
 
 
