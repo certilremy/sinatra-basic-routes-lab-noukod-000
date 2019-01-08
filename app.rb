@@ -6,6 +6,7 @@ class App < Sinatra::Base
   get '/' do
       url.each{ |i|
         i
+        puts "_________"
       }
     end
 
