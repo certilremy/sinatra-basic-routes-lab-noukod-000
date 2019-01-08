@@ -5,7 +5,7 @@ class App < Sinatra::Base
 
   get '/' do
       url.each{ |i|
-        puts "<h1>Hello</h1>"
+        i
       }
     end
 
